@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_margin="12dp"
+        android:hint="type something..."
+        android:inputType="text"
+        android:textSize="18sp">
+    </EditText>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="500dp"
+        android:layout_height="320dp"
+        android:layout_below="@+id/ed1"
+        android:layout_marginTop="85dp"
+        android:layout_margin="20dp"
+        android:background="#fcfc">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:text="Scan"
+        android:textColor="#fafafa"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt1"
+        android:text="Generate"
+        android:textColor="#fafafa"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:background="@drawable/button">
+
+    </Button>
+</RelativeLayout>

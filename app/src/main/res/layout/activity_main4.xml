@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Main4Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cho"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bungee_inline"
+            android:text="Chirodip Lodh Choudhury"
+            android:textColor="#fafafa"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/boogaloo"
+            android:text="Currently pursuing Btech in Computer Science from GIET University.I love to explore the deeps of IT and Computer Science.I also have Experiences in working with Android,Deep Learning,Big Data.I am also a avid reader and love to play guitar"
+            android:textColor="#fafafa"
+            android:textSize="22sp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/git"/>
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal"
+            android:text="Github"
+            android:layout_marginTop="5dp"
+            android:textColor="#fafafa"
+            android:textSize="18dp"
+            android:autoLink="all"/>
+    </LinearLayout>
+</RelativeLayout>
